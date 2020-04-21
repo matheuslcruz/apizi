@@ -34,5 +34,5 @@ An easy API for authenticated HTTP requests and XML/JSON text processing
 ### Fetch non-authenticated XML resource for xPath queries
 
 	SomeResource xmlStream = ApiJsonResource.instantiate(
-		"http://some-json-based-api/some/resource.json", SomeResource.class);
+		"http://some-xml-based-api/some/resource.xml", SomeResource.class);
 	
